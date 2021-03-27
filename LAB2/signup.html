@@ -19,7 +19,7 @@
         <hr>
         <br>
         <p>회원가입</p>
-        <form method="GET" action="login.html">
+        <form method="POST" action="login.html">
             <p>
                 <label>아이디 :
                     <input name="id" type="text" autocomplete="username" placeholder="아이디를 입력해주세요" autofocus required></label>
@@ -51,11 +51,12 @@
             </p>
             <p>
                 <label>전화번호 :
-                    <input name="tel" type="tel" placeholder="010-1234-5678" pattern="0\d{1,2}-\d{3,4}-\d{4}" autocomplete="tel-national" required></label>
+                    <input name="tel" type="tel" placeholder="010-1234-5678" pattern="0\d{1,2}-\d{3,4}-\d{4}"
+                    autocomplete="tel-national" required></label>
             </p>
             <p>
                 <input type="submit" value="가입하기" class="loginb">
-                <input type="button" value="취소" class="loginb" onclick="location.href='login.html'">
+                <a href="login.html" class="loginb">취소</a>
             </p>
         </form>
         <br>
