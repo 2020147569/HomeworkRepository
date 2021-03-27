@@ -19,18 +19,18 @@
         <hr>
         <br>
         <p>회원가입</p>
-        <form method="POST" action="login.html">
+        <form method="GET" action="login.html">
             <p>
                 <label>아이디 :
                     <input name="id" type="text" autocomplete="username" placeholder="아이디를 입력해주세요" autofocus required></label>
             </p>
             <p>
                 <label>비밀번호 :
-                    <input name="password" type="password" placeholder="비밀번호를 입력해주세요" required></label>
+                    <input name="password" type="password" autocomplete="off" placeholder="비밀번호를 입력해주세요" required></label>
             </p>
             <p>
                 <label>비밀번호 확인 :
-                    <input name="pvalid" type="password" autocomplete="new-password" placeholder="비밀번호 확인" required></label>
+                    <input name="pvalid" type="password" autocomplete="off" placeholder="비밀번호 확인" required></label>
             </p>
             <p>
                 <label>이름 :
