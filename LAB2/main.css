@@ -1,0 +1,9 @@
+body {background-color: whitesmoke;}
+.headline {font-family: 'Nunito', sans-serif; font-size: 50px;}
+nav {background-color: rgb(62, 60, 168); margin: 0px; padding: 5px;}
+nav > a { color: whitesmoke; text-decoration: none;}
+nav > a:hover {text-decoration: underline whitesmoke;}
+hr {height: 2px; color: black; background-color: black;}
+form p label {font-size: 10pt;}
+.loginb {text-align: center; background-color: rgb(62, 60, 168); padding: 5px; margin: 0px; color: whitesmoke; width: 100px; border: 2px solid black;}
+body > p {font-size: 20px;}
