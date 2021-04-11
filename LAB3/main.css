@@ -1,0 +1,87 @@
+body {
+    background-color: whitesmoke;
+}
+.mainpage {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.headline {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+}
+.mainheader {
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    animation: movingheader ease-out 2s 0s 1 normal;
+}
+@keyframes movingheader {
+    from {left: 1020px;}
+    to {left: 0px;}
+}
+.category {
+    column-span: all;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30pt;
+}
+nav {
+    background-color: rgb(62, 60, 168);
+    margin: 0px;
+    padding: 5px;
+}
+nav > a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+nav > a:hover {
+    text-decoration: underline whitesmoke;
+}
+hr {
+    height: 2px;
+    color: black;
+    background-color: black;
+}
+form p label {
+    font-size: 10pt;
+}
+.loginb {
+    text-align: center;
+    background-color: rgb(62, 60, 168);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+    color: whitesmoke;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 10pt;
+    text-decoration: none;
+    display: inline-block;
+}
+body > p {
+    font-size: 10pt;
+}
+.productbox {
+    display: inline-block;
+    height: 552px;
+    width: 400px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 0px;
+}
+.productimage {
+    height: 276px;
+    width: 200px;
+    transition: transform 2s;
+    transform-origin: top left;
+}
+.productimage:hover {
+    transform: scale(2, 2);
+}
+.webintro {
+    align-self: center;
+    column-count: 2;
+    column-gap: 40px;
+    column-width: 200px;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+}
