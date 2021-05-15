@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Main Page</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="main.js"></script>
+    </head>
+    <body class="mainpage">
+        <div class="mainheader" id="demo">
+            SJ's BOARDGAME SHOP
+        </div>
+        <nav>
+            <a href="index.html">메인페이지</a>
+            <a href="login.html">로그인</a>
+            <a href="signup.html">회원가입</a>
+        </nav>
+        <hr>
+        <br>
+        <div class="category">
+            구매하고자 하는 상품을 선택해주세요
+        </div>
+        <span class="searchbox">
+            <p>
+                카테고리
+            </p>
+            <select id="type">
+                <option value="all">all</option>
+                <option value="family game">family game</option>
+                <option value="party game">party game</option>
+                <option value="mystery game">mystery game</option>
+                <option value="strategy game">strategy game</option>
+            </select>
+            <input id="stext" name="stext" type="text" placeholder="e.g) BANG!">
+            <button id="searchbutton" class="loginb">search</button>
+        </span><span class="pbcontainer">
+            <span class="productbox">
+                <img src="img/bang.jpg" alt="BANG!" class="productimage">
+            </span>
+            <span class="productbox">
+                <img src="img/rummikub.jpg" alt="Rummikub" class="productimage">
+            </span>    
+        </span>
+        <br>
+        <hr>
+    </body>
+</html>
