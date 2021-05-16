@@ -78,23 +78,31 @@ body > p {
     margin: 0px;
     padding: 0px;
     border: 2px solid black;
+    text-align: center;
+    position: relative;
 }
 .productbox {
     display: inline-block;
-    height: 552px;
-    width: 400px;
+    height: 400px;
+    width: 45%;
     border: 2px solid black;
     margin: 10px;
     padding: 0px;
+    position: relative;
 }
 .productimage {
-    height: 276px;
-    width: 200px;
-    transition: transform 2s;
-    transform-origin: top left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
 }
-.productimage:hover {
-    transform: scale(2, 2);
+.desc{
+    position:absolute;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
 }
 .webintro {
     align-self: center;

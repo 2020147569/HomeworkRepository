@@ -10,7 +10,7 @@
         <script src="main.js"></script>
     </head>
     <body class="mainpage">
-        <div class="mainheader" id="demo">
+        <div class="mainheader">
             SJ's BOARDGAME SHOP
         </div>
         <nav>
@@ -24,9 +24,9 @@
             구매하고자 하는 상품을 선택해주세요
         </div>
         <span class="searchbox">
-            <p>
+            <div>
                 카테고리
-            </p>
+            </div>
             <select id="type">
                 <option value="all">all</option>
                 <option value="family game">family game</option>
@@ -34,15 +34,12 @@
                 <option value="mystery game">mystery game</option>
                 <option value="strategy game">strategy game</option>
             </select>
+            <div>
+                검색어
+            </div>
             <input id="stext" name="stext" type="text" placeholder="e.g) BANG!">
             <button id="searchbutton" class="loginb">search</button>
-        </span><span class="pbcontainer">
-            <span class="productbox">
-                <img src="img/bang.jpg" alt="BANG!" class="productimage">
-            </span>
-            <span class="productbox">
-                <img src="img/rummikub.jpg" alt="Rummikub" class="productimage">
-            </span>    
+        </span><span class="pbcontainer" id="container">    
         </span>
         <br>
         <hr>
