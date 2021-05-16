@@ -3,48 +3,48 @@
         "type": "mystery game",
         "name": "BANG!",
         "source": "img/bang.jpg",
-        "price": 1
+        "price": 16350
     },
     {
         "type": "family game",
         "name": "Rummikub",
         "source": "img/rummikub.jpg",
-        "price": 2
+        "price": 17500
     },
     {
         "type": "mystery game",
         "name": "13 Clues",
         "source": "img/13clues.jpg",
-        "price": 3
+        "price": 21190
     },
     {
         "type":"family game",
         "name": "CAN'T STOP",
         "source": "img/cantstop.jpg",
-        "price": 4
+        "price": 22000
     },
     {
         "type": "party game",
         "name": "CONCEPT",
         "source": "img/concept.jpg",
-        "price": 5
+        "price": 31460
     },
     {
         "type":"family game",
         "name": "Love Letter",
         "source": "img/loveletter.jpg",
-        "price": 6
+        "price": 10500
     },
     {
         "type": "family game",
         "name": "marrakech",
         "source": "img/marrakech.jpg",
-        "price": 7
+        "price": 32500
     },
     {
         "type": "strategy game",
         "name": "Splendor",
         "source": "img/splendor.jpg",
-        "price": 8
+        "price": 31850
     }
 ]
