@@ -2,7 +2,7 @@ let datalist, tmpdatalist, alldata, category, keyword, curdisnum;
 document.addEventListener("DOMContentLoaded", initialize);
 function initialize(){
     document.getElementsByClassName("searchbox").innerHTML = "s";
-    fetch("product.json")
+    fetch("https://2020147569.github.io/HomeworkRepository/LAB4/product.json")
     .then(response=>response.json())
     .then(function(json) {
         alldata = json;
